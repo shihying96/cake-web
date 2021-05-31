@@ -1,0 +1,3078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cake 手機版:iPhoneX</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        /* 手機版:iPhoneX */
+        @media (max-width: 375px) {
+
+            .navbar {
+                background-color: rgb(255, 255, 255);
+                width: 375px;
+            }
+
+            .navbar-brand {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .navbar-brand img {
+                width: 83px;
+
+            }
+
+            .facebook img {
+                width: 30px;
+                margin-right: 10px;
+            }
+
+            .instagram img {
+                width: 30px;
+                margin-right: 0;
+                overflow: hidden;
+            }
+
+            .nav_item_wrap {
+                width: 80px;
+                display: flex;
+                /* border: 1px solid red; */
+            }
+
+            .hamberger {
+                width: 40px;
+                height: 33px;
+            }
+
+            .hamberger img {
+                width: 40px;
+                height: 33px;
+                position: relative;
+                /* border: 1px solid red; */
+                z-index: 999;
+            }
+
+            .onlineshop {
+                margin-left: 1320px;
+
+            }
+
+            .onlineshop img {
+                width: 240px;
+            }
+
+            .row {
+                width: 390px;
+            }
+
+            .carousel-inner {
+                margin-top: 70px;
+                height: 191px;
+            }
+
+            .carousel-item .active {
+                height: 191px;
+            }
+
+            .carousel-item {
+
+                height: 191px;
+            }
+
+            .carousel-img {
+                width: 100%;
+                height: auto;
+            }
+
+            .carousel-indicators {
+                padding-bottom: 20px;
+
+            }
+
+
+            .carousel-indicators li {
+                width: 10px;
+                height: 10px;
+                background-clip: initial;
+                border-top: 0;
+                border-bottom: 0;
+                background-color: #FFC7B9;
+                /* border: 1px solid red; */
+                border-radius: 10px;
+                margin: 15px;
+            }
+
+            .jamshop_wrap {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                height: 154px;
+                width: 375px;
+                /* border: 1px solid red; */
+            }
+
+            .jamshop_in {
+                width: 208px;
+                height: 154px;
+                margin-left: 90px;
+                /* background-color: khaki; */
+            }
+
+            .jamshop {
+                height: 154px;
+                width: 375px;
+
+
+            }
+
+            .jamshop:hover {
+                opacity: 0.6;
+            }
+
+            .shop {
+                width: 112px;
+                margin: 0 auto;
+            }
+
+            .jamshop .green {
+                width: 80px;
+                margin: 0 auto;
+            }
+
+            .tarte {
+                background-color: #FCECE2;
+                width: 100%;
+                height: 199px;
+            }
+
+            .jumbotron {
+                background-image: url('./images/indlimitedbnr_201130_sp.png');
+                background-size: contain;
+                background-color: #FCECE2;
+                width: 390px;
+                height: 144px;
+                border-radius: 0rem;
+                /* border: 1px solid red; */
+            }
+
+            .detail {
+                width: 169px;
+                /* border: 1px solid red; */
+                margin: 0 auto;
+                margin-top: -30px;
+            }
+
+            .detail img {
+                width: 169px;
+
+            }
+
+            .hand {
+                width: 100%;
+                height: 246px;
+                background: url(./images/ps_MDF_farmer2.jpg) center center no-repeat;
+                background-size: cover;
+            }
+
+            .cls {
+                width: 300px;
+                margin: 0 auto;
+                padding-top: 100px;
+                /* background-color: rgb(201, 91, 91); */
+            }
+
+            .cat {
+                width: 167.06px;
+                height: 130.3px;
+            }
+
+            .cat img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .fb_text {
+                width: 167.06px;
+                height: 143px;
+                font-family: 'Noto Serif JP', serif;
+                font-size: 0.73em;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                line-height: 20px;
+                background-color: #fff;
+                padding-top: 30px;
+            }
+
+            .fb_min img {
+                width: 94px;
+                margin-left: 60px;
+                margin-top: 10px;
+            }
+
+            .fb_text_wrap {
+                width: 167.06px;
+                margin: 8px;
+                margin-top: -50px;
+
+            }
+
+            .fb_wra {
+                display: flex;
+                overflow: hidden;
+                flex-direction: row;
+                background-color: #FCECE2;
+                /* border: 1px solid red; */
+                padding-top: 80px;
+                padding-bottom: 80px;
+                /* height: 373.3px; */
+            }
+
+            .fb_text_center {
+                margin-left: 5px;
+                margin-top: -20px;
+            }
+
+            .fb_M img {
+                width: 0px;
+                float: right;
+                margin-top: -600px;
+                margin-right: -150px;
+            }
+
+            .fb_M_text {
+                -webkit-writing-mode: vertical-lr;
+                writing-mode: vertical-lr;
+                font-size: 0.95em;
+                float: right;
+                margin-top: -280px;
+                margin-right: 3px;
+                line-height: 1;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+
+            .Philosophy_wrap {
+                width: 375px;
+                height: 772.73px;
+                background-color: #FCECE2;
+            }
+
+            .Philosophy_text {
+                width: 360px;
+                height: 364px;
+                background-color: #fff;
+            }
+
+            .Philosophy_title {
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+                font-size: 28px;
+                line-height: 1.65;
+                color: #365B56;
+                padding-left: 20px;
+                padding-top: 20px;
+            }
+
+            .Philosophy_eng_title {
+                font-weight: 300;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.1em;
+                color: #231815;
+                margin-bottom: 10px;
+                padding-left: 20px;
+                padding-top: 10px;
+                letter-spacing: 0.08em;
+            }
+
+            .Philosophy_eng_text {
+                font-weight: 300;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.1em;
+                color: #231815;
+                margin-bottom: 10px;
+                padding-left: 20px;
+                padding-top: 10px;
+                line-height: 30px;
+                letter-spacing: 0.08em;
+            }
+
+            .Philosophy_detail {
+                padding-top: 20px;
+                padding-left: 100px;
+            }
+
+            .Philosophy_detail img {
+                width: 240px;
+
+            }
+
+            .Philosophy_greenbox {
+                width: 337.5px;
+                height: 408px;
+                background-color: #365B56;
+                margin-left: 22px;
+
+            }
+
+            .Philosophy_greenbox_text {
+                color: #FBE3D5;
+                font-size: 14px;
+                line-height: 1.65;
+                font-weight: 100;
+                letter-spacing: 0.08em;
+                padding-top: 20px;
+                padding-left: 25px;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .Philo_text {
+                -webkit-writing-mode: vertical-lr;
+                writing-mode: vertical-lr;
+                font-size: 0.95em;
+                float: right;
+                margin-top: 100px;
+                margin-right: 3px;
+                line-height: 1;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .strawberry {
+                /* border: 1px solid red; */
+                width: 90px;
+                margin-left: 250px;
+                margin-top: -20px;
+                overflow: hidden;
+            }
+
+            .cut01 {
+                width: 100%;
+                height: 100%;
+            }
+
+            .profilebox {
+                width: 375px;
+                height: 1000px;
+                background-color: #FCECE2;
+            }
+
+            .profile_sea_img {
+                width: 352px;
+                height: 316.8px;
+                margin-left: 22px;
+                overflow: hidden;
+            }
+
+            .profile_sea_img img {
+                width: 99.5%;
+                height: 100%;
+                overflow: hidden;
+
+            }
+
+            .profile_detail {
+                display: flex;
+                margin-top: -90px;
+                padding-left: 60px;
+            }
+
+            .profile_detail img {
+                width: 240px;
+
+            }
+
+            .profile_text {
+                width: 337.5px;
+                height: 408px;
+                background-color: #fff;
+                margin-top: 30px;
+                margin-left: 22px;
+            }
+
+            .profile_text {
+                font-size: 14px;
+                line-height: 1.65;
+                padding-top: 20px;
+                padding-left: 25px;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .profile_strawberry_img {
+                width: 337.5px;
+                height: 150px;
+                margin-left: 22px;
+
+                background: url(./images/houjin_bnr01.png) center center;
+                background-size: cover;
+            }
+
+            .cut01 {
+                position: relative;
+            }
+
+            .Mika_text {
+                -webkit-writing-mode: vertical-lr;
+                writing-mode: vertical-lr;
+                font-size: 0.95em;
+                float: left;
+                margin-top: -170px;
+                line-height: 1;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .wata {
+                width: 257px;
+                height: 49px;
+            }
+
+            .wata img {
+                width: 100%;
+                position: relative;
+                margin-left: 100px;
+                margin-top: -100px;
+            }
+
+            .shopbox {
+                display: flex;
+                padding-left: 20px;
+                width: 375px;
+                height: 256px;
+                background-color: #FCECE2;
+            }
+
+            .shop_wrap_img {
+                width: 165.38px;
+                height: 256.15px;
+                margin-top: -100px;
+                margin-right: 10px;
+                /* border: 1px solid red; */
+            }
+
+            .shop_img {
+                width: 165.38px;
+                height: 153.56px;
+            }
+
+            .shop_img img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .shop_text {
+                font-size: 1.10em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+            }
+
+            .shop_detail {
+                width: 165.38px;
+
+            }
+
+            .shop_detail img {
+                width: 100%;
+                height: auto;
+                margin-top: 10px;
+
+            }
+
+            .shoplr_text {
+                -webkit-writing-mode: vertical-lr;
+                writing-mode: vertical-lr;
+                font-size: 0.95em;
+                float: left;
+                display: flex;
+                margin-top: -100px;
+                line-height: 1;
+                color: #365B56;
+                font-weight: 400;
+                margin-left: -370px;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .cut02 {
+                width: 250px;
+                height: 240px;
+            }
+
+            .cut02 img {
+                width: 100%;
+                margin-left: -250px;
+                margin-top: 200px;
+            }
+
+            .ind_onlineshop {
+                width: 375px;
+                height: 650px;
+                background-color: #FCECE2;
+            }
+
+            .ind_onlineshop_title {
+                margin-top: -10px;
+                margin-left: 60px;
+                font-weight: 300;
+                font-family: 'Noto Serif JP', serif;
+                line-height: 1 !important;
+                color: #365B56;
+                font-size: 1.6em;
+                letter-spacing: 0.08em;
+            }
+
+
+            .ind_onlineshop_title img {
+                width: 31px;
+            }
+
+            .ind_onlineshop_title_s {
+                font-size: 14px;
+                text-align: center;
+                margin-top: 15px;
+                font-family: 'Noto Serif JP', serif;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+            }
+
+            .ind_onlineshop_jam_img {
+                width: 375px;
+                height: 327px;
+                overflow: hidden;
+                margin-top: 15px;
+            }
+
+            .ind_onlineshop_jam_img img {
+                margin-left: -130px;
+                overflow: hidden;
+                width: auto;
+                height: 100%;
+            }
+
+            .whit_text {
+                color: #fff;
+                font-size: 1.4em;
+                font-weight: 300;
+                margin-top: -200px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.3 !important;
+                text-align: center;
+                letter-spacing: 0.08em;
+            }
+
+            .ind_jamshop {
+                display: flex;
+                flex-direction: column;
+                margin-left: 130px;
+                margin-top: -120px;
+                /* border: 1px solid red; */
+            }
+
+            .ind_jamshop:hover {
+                opacity: 0.6;
+            }
+
+            .ind_shop {
+                width: 70px;
+                height: 60px;
+                margin-left: 160px;
+                margin-top: 10px;
+            }
+
+
+            .ind_green {
+                width: 70px;
+                height: auto;
+                margin-left: 160px;
+                margin-top: 50px;
+                /* border: 1px solid red; */
+            }
+
+            .ind_detail {
+                display: flex;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                padding-left: 70px;
+            }
+
+            .ind_detail img {
+                width: 240px;
+
+            }
+
+
+            .confiture {
+                width: 300px;
+                height: 23px;
+                /* border: 1px solid red; */
+                margin-top: -380px;
+                margin-left: 40px;
+
+            }
+
+            .confiture img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .product {
+                width: 375px;
+                height: 1380px;
+                background-color: #FCECE2;
+            }
+
+            .product_text {
+                font-size: 0.95em;
+                float: left;
+                display: flex;
+                margin-top: -80px;
+                margin-left: 150px;
+                line-height: 1;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .productbox {
+                display: flex;
+                padding-left: 20px;
+                padding-top: 60px;
+                width: 375px;
+                height: 256px;
+                background-color: #FCECE2;
+            }
+
+            .cut03 {
+                overflow: hidden;
+                width: 150px;
+                height: 98px;
+                margin-top: -360px;
+                margin-left: -50px;
+            }
+
+            .cut03 img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .pro_text {
+                margin-left: 55px;
+                margin-top: -40px;
+                font-size: 1em;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .pro_eng_text {
+                margin-bottom: 10px;
+                padding-left: -50px;
+                padding-top: 10px;
+                font-size: 1.10em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+            }
+
+            .cream_cake {
+                width: 337px;
+                height: 225px;
+                margin-top: 300px;
+                margin-left: 20px;
+            }
+
+            .cream_cake img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .cream_cake_text {
+                margin-left: 100px;
+                margin-top: -40px;
+                font-size: 1em;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .strawberry2 {
+                /* border: 1px solid red; */
+                width: 130px;
+                margin-left: 240px;
+                margin-top: -170px;
+            }
+
+
+
+
+            .cut02 {
+                width: 100%;
+                height: 100%;
+            }
+
+            .decoration_text {
+                margin-bottom: 10px;
+                padding-left: -50px;
+                padding-top: 60px;
+                font-size: 1.10em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+            }
+
+            .decoration_content {
+                width: 337.5px;
+                height: 408px;
+                margin-top: 30px;
+                margin-left: 22px;
+                font-size: 14px;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .onlineshop_detail {
+                display: flex;
+                margin-top: -290px;
+                padding-left: 70px;
+            }
+
+            .onlineshop_detail img {
+                width: 240px;
+
+            }
+
+            .gift {
+                width: 337px;
+                height: 225px;
+                margin-top: 50px;
+                margin-left: 20px;
+            }
+
+            .gift img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .gift_text {
+                margin-left: 100px;
+                margin-top: -40px;
+                font-size: 1em;
+                line-height: 1.65;
+                color: #fff;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .wedding_img {
+                width: 337px;
+                height: 104px;
+                margin-top: -150px;
+                margin-left: 20px;
+            }
+
+            .wedding_img img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .wedding_detail {
+                display: flex;
+                margin-top: -320px;
+                padding-left: 70px;
+            }
+
+            .wedding_detail img {
+                width: 240px;
+
+            }
+
+            .marriage_text {
+                margin-bottom: 10px;
+                padding-left: -50px;
+                padding-top: 60px;
+                font-size: 1.10em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+            }
+
+            .marriage_content {
+                width: 337.5px;
+                height: 408px;
+                margin-top: 30px;
+                margin-left: 22px;
+                font-size: 14px;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .discoverybox {
+                width: 375px;
+                height: 1463px;
+                background-color: #fff9f5;
+            }
+
+
+            .Tabloid_text {
+                -webkit-writing-mode: vertical-lr;
+                writing-mode: vertical-lr;
+                font-size: 0.95em;
+                float: left;
+                display: flex;
+                margin-top: 50px;
+                line-height: 1;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .cut05 {
+                width: 34px;
+                height: 43px;
+                margin-left: 20px;
+
+            }
+
+            .cut05 img {
+                width: 100%;
+                height: 100%;
+                margin-top: 45px;
+
+            }
+
+            .discover_title {
+                font-size: 1.5em;
+                font-weight: 400;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.2 !important;
+                margin-left: 60px;
+                color: #365B56;
+                letter-spacing: 0.08em;
+            }
+
+            .discover_content {
+                position: relative;
+                font-size: 0.88em;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                margin-left: 60px;
+                margin-top: 20px;
+                margin-bottom: 100px;
+            }
+
+
+            .map {
+                width: 240px;
+                height: auto;
+                margin-top: -1400px;
+
+            }
+
+            .map img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .tabloidbox {
+                width: 337px;
+                height: 335px;
+                margin-top: -50px;
+                margin-bottom: 100px;
+                position: relative;
+                z-index: 2;
+            }
+
+
+            .tabloid_img {
+                width: 240px;
+                height: 177.19px;
+            }
+
+            .tabloid_img img {
+                width: 100%;
+                height: 100%;
+            }
+
+
+
+            .tabloid_wrap {
+                display: flex;
+                margin-left: 20px;
+            }
+
+            .tabloid_greenbox {
+                width: 141.75px;
+                height: 177.19px;
+            }
+
+            .tabloid_greenbox img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .symbol {
+                font-size: 1.26em;
+                line-height: 1 !important;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                margin-left: 20px;
+                margin-top: 12px;
+            }
+
+            .tabloid_number {
+                font-size: 2.49em;
+                line-height: 1 !important;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                margin-left: 35px;
+                margin-top: -25px;
+
+            }
+
+            .tabloid_out_title {
+                line-height: 1.2;
+                width: fit-content;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.15em;
+                font-size: 1.4em;
+                background: #fff;
+                margin-left: 90px;
+                margin-top: -30px;
+
+            }
+
+            .tabloid_out_title2 {
+                line-height: 1.2;
+                width: fit-content;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.15em;
+                font-size: 1.4em;
+                background: #fff;
+                margin-left: 90px;
+                margin-top: 10px;
+
+
+            }
+
+            .discover_detail {
+                display: flex;
+                margin-top: 30px;
+                padding-left: 70px;
+            }
+
+            .discover_detail img {
+                width: 240px;
+
+            }
+
+            .tabloid_text_wrap {
+                width: 337px;
+                height: 200px;
+
+            }
+
+            .corpbox {
+                width: 375px;
+                height: 1001px;
+                background-color: #F8F0E8;
+
+            }
+
+            .corp_title {
+                line-height: 1.2;
+                width: fit-content;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.15em;
+                font-size: 1.4em;
+                text-align: center;
+                margin: 0 auto;
+                padding-top: 50px;
+            }
+
+            .corp_content {
+                position: relative;
+                font-size: 0.88em;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                margin-left: 20px;
+                margin-top: 20px;
+                margin-bottom: 100px;
+            }
+
+            .corp_wrap_img {
+                width: 165.38px;
+                height: 256.15px;
+                margin-top: -100px;
+                margin-right: 10px;
+                /* border: 1px solid red; */
+            }
+
+            .corp_img {
+                width: 160px;
+                height: 204px;
+            }
+
+            .corp_img img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .shop_text {
+                font-size: 1.10em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+            }
+
+            .shop_detail {
+                width: 165.38px;
+
+            }
+
+            .shop_detail img {
+                width: 100%;
+                height: auto;
+                margin-top: 10px;
+
+            }
+
+            .corpbox2 {
+                display: flex;
+                padding-left: 20px;
+                padding-top: 350px;
+                width: 375px;
+                height: 256px;
+                /* border: 1px solid red; */
+                background-color: #FCECE2;
+            }
+
+            .corp_detail {
+                width: 180px;
+                height: 45px;
+
+            }
+
+            .corp_detail img {
+                width: 100%;
+                height: auto;
+                margin-top: 10px;
+
+            }
+
+            .corpoutbox {
+                display: flex;
+                padding-left: 450px;
+                padding-top: -500px;
+                margin-top: 150px;
+                margin-left: -430px;
+                width: 100%;
+                height: 0px;
+                background-color: #F8F0E8;
+            }
+
+            .footer_wrap {
+                background-color: #F8F0E8;
+                width: 375px;
+                height: 800px;
+            }
+
+            .footer_title {
+
+                padding-top: 40px;
+                width: 317px;
+                height: 49px;
+                margin: 0 auto;
+            }
+
+            .footer_line {
+                border-top: 1px solid #C5C9C1;
+            }
+
+            .footer_title img {
+                width: 100%;
+                height: auto;
+            }
+
+            .footer_content {
+                font-size: 1.10em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+                margin-top: 70px;
+                margin-left: -40px;
+            }
+
+            .footer_list {
+                font-size: 1.10em;
+                font-weight: 300;
+                margin-top: 10px;
+                font-weight: 400;
+                font-family: 'Roboto', sans-serif;
+                line-height: 3;
+                letter-spacing: 0.08em;
+                color: #000;
+                margin-top: 70px;
+                margin-left: 30px;
+            }
+
+            .recruit {
+                width: 100px;
+                height: 60px;
+                margin-left: 250px;
+                margin-top: -300px;
+            }
+
+            .recruit img {
+                width: 100%;
+            }
+
+            .footer_social {
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                font-size: 13px;
+                color: #231815;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                line-height: 1.65;
+                margin-top: 280px;
+            }
+
+            .footericon {
+                display: flex;
+                margin-top: 10px;
+                justify-content: center;
+            }
+
+            .footer_fb {
+                width: 30px;
+            }
+
+            .footer_fb img {
+                width: 100%;
+            }
+
+            .footer_ig {
+                width: 30px;
+            }
+
+            .footer_ig img {
+                width: 100%;
+            }
+
+
+
+            .footer_bottom {
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                font-size: 13px;
+                color: #231815;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                line-height: 2;
+
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media (min-width: 376px) and (min-width: 1200px) {
+
+            .navbar {
+                background-color: rgb(255, 255, 255);
+                overflow: hidden;
+            }
+
+            .navbar-brand {
+
+                width: 132px;
+
+            }
+
+            .w-100 {
+                width: 99.2% !important;
+                overflow: hidden;
+            }
+
+            .container {
+                width: 100%;
+            }
+
+            .onlineshop img {
+                width: 240px;
+
+            }
+
+            .onlineshop {
+                /* border: 1px solid red; */
+                width: 200px;
+                margin-left: 400px;
+            }
+
+            .nav_item_wrap {
+                display: flex;
+                align-items: center;
+                margin-right: 15px;
+                /* border: 1px solid red; */
+            }
+
+
+            .nav-item {
+                /* border: 1px solid red; */
+                width: 0px;
+            }
+
+            .hamberger {
+                width: 40px;
+                height: 33px;
+                margin-left: 100px;
+
+
+            }
+
+            .row {
+                overflow: hidden;
+            }
+
+            .facebook img {
+                width: 30px;
+                margin-right: 30px;
+            }
+
+            .instagram img {
+                width: 30px;
+                margin-right: 40px;
+            }
+
+            .carousel-inner {
+                overflow: hidden;
+                height: 700px;
+            }
+
+            .carousel-item .active {
+                overflow: hidden;
+                height: 700px;
+            }
+
+            .carousel-item {
+                overflow: hidden;
+                height: 700px;
+            }
+
+            .carousel-img {
+                overflow: hidden;
+                width: 100%;
+                height: auto;
+            }
+
+            .carousel-indicators {
+                padding-bottom: 20px;
+
+            }
+
+
+            .carousel-indicators li {
+                width: 10px;
+                height: 10px;
+                background-clip: initial;
+                border-top: 0;
+                border-bottom: 0;
+                background-color: #FFC7B9;
+                /* border: 1px solid red; */
+                border-radius: 10px;
+                margin: 15px;
+            }
+
+            .tarte {
+                background-color: #FCECE2;
+                width: 100%;
+                height: 440px;
+            }
+
+            .jamshop {
+                margin-top: -340px;
+                margin-left: 1650px;
+                position: absolute;
+                overflow: hidden;
+
+            }
+
+            .jamshop:hover {
+                opacity: 0.6;
+            }
+
+            .jamshop .green {
+                margin-left: 30px;
+                margin-top: 20px;
+            }
+
+            .shop {
+                width: 192px;
+            }
+
+            .green {
+                width: 120px;
+            }
+
+            .jumbotron {
+                background-image: url('./images/indlimitedbnr_201130.png');
+                background-size: 100% auto;
+                background-color: #FCECE2;
+                width: 1200px;
+                height: 365px;
+                border-radius: 0rem;
+                /* border: 1px solid red; */
+                margin: 0 auto;
+            }
+
+
+            .detail {
+                width: 1200px;
+                /* border: 1px solid red; */
+                margin: 0 auto;
+                margin-top: -70px;
+            }
+
+            .detail img {
+                width: 240px;
+                margin-left: 500px;
+            }
+
+            .hand {
+                width: 100%;
+                height: 447px;
+                background: url(./images/ps_MDF_farmer2.jpg) center center no-repeat;
+                background-size: cover;
+
+            }
+
+            .cls {
+                width: 430px;
+                height: 68px;
+                margin: 0 auto;
+                padding-top: 200px;
+                /* background-color: rgb(201, 91, 91); */
+            }
+
+            .cat {
+                width: 379px;
+                height: 295px;
+            }
+
+            .cat img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .fb_text {
+                width: 379px;
+                height: 193px;
+                font-family: 'Noto Serif JP', serif;
+                font-size: 0.73em;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                line-height: 20px;
+                background-color: #fff;
+                padding-top: 30px;
+            }
+
+            .fb_min img {
+                width: 94px;
+                margin-left: 250px;
+                margin-top: 30px;
+            }
+
+            .fb_text_wrap {
+                width: 379px;
+                height: 488px;
+                margin: 5px;
+            }
+
+            .fb_wra {
+                display: flex;
+                justify-content: center;
+                background-color: #FCECE2;
+                /* border: 1px solid #afa; */
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+
+            .fb_text_center {
+                margin-left: 40px
+            }
+
+            .fb_M img {
+                width: 100px;
+                float: right;
+                margin-top: -600px;
+                margin-right: 30px;
+
+
+
+            }
+
+            .fb_M_text {
+                -webkit-writing-mode: vertical-lr;
+                writing-mode: vertical-lr;
+                font-size: 1.17em;
+                float: right;
+                margin-top: -480px;
+                margin-right: 70px;
+                line-height: 1;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .Philosophy_wrap {
+                width: 375px;
+                height: 572px;
+                /* background-color: #FCECE2; */
+
+            }
+
+            .Philosophy_text {
+                width: 1480px;
+                height: 364px;
+                padding-left: 400px;
+                background-color: #fff;
+            }
+
+            .Philosophy_title {
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+                font-size: 45px;
+                line-height: 1.65;
+                color: #365B56;
+                padding-left: 20px;
+                padding-top: 20px;
+            }
+
+            .Philosophy_eng_title {
+                font-weight: 300;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.4em;
+                color: #231815;
+                margin-bottom: 10px;
+                padding-left: 20px;
+                padding-top: 40px;
+                letter-spacing: 0.08em;
+            }
+
+            .Philosophy_eng_text {
+                font-weight: 300;
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.4em;
+                color: #231815;
+                margin-bottom: 10px;
+                padding-left: 20px;
+                padding-top: 40px;
+                line-height: 30px;
+                letter-spacing: 0.08em;
+            }
+
+            .Philosophy_detail {
+                padding-top: 40px;
+                padding-left: 320px;
+            }
+
+            .Philosophy_detail img {
+                width: 240px;
+
+            }
+
+            .Philosophy_greenbox {
+                width: 400px;
+                height: 572px;
+                background-color: #365B56;
+                margin-left: 1000px;
+                margin-top: -364px;
+
+            }
+
+            .Philosophy_greenbox_text {
+                color: #FBE3D5;
+                font-size: 16px;
+                line-height: 1.65;
+                font-weight: 100;
+                letter-spacing: 0.08em;
+                padding-top: 70px;
+                padding-left: 35px;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .Philo_text_box {
+                -webkit-writing-mode: vertical-lr;
+                writing-mode: vertical-lr;
+                background-color: #FCECE2;
+                margin-top: -1px;
+                width: 510px;
+                height: 573px;
+                font-size: 1.17em;
+                float: right;
+                line-height: 1;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .Philo_text {
+                margin-left: 120px;
+                margin-top: 120px;
+            }
+
+            .strawberry {
+                width: 225px;
+                height: auto;
+                margin-left: 1400px;
+                margin-top: -120px;
+                position: absolute;
+            }
+
+            .strawberry img {
+                width: 100%;
+                height: 100%;
+
+            }
+
+            .profilebox {
+                width: 100%;
+                height: 1114px;
+                background-color: #FCECE2;
+            }
+
+            .profile_sea_img {
+                width: 1534px;
+                height: 561px;
+                margin-left: 370px;
+                overflow: hidden;
+            }
+
+            .profile_sea_img img {
+                width: 100%;
+                height: auto;
+
+            }
+
+            .profile_detail {
+                display: flex;
+                margin-top: -100px;
+                padding-left: 450px;
+            }
+
+            .profile_detail img {
+                width: 240px;
+
+            }
+
+            .profile_text {
+                width: 400px;
+                height: 553px;
+                background-color: #fff;
+                margin-top: 30px;
+                margin-left: 22px;
+            }
+
+            .profile_text {
+                font-size: 16px;
+                line-height: 1.65;
+                padding-top: 70px;
+                padding-left: 25px;
+                margin-left: 370px;
+                margin-top: 40px;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .profile_strawberry_img {
+                width: 600px;
+                height: 600px;
+                margin-left: 770px;
+                margin-top: -600px;
+                background: url(./images/houjin_bnr01.png) center center;
+                background-size: cover;
+            }
+
+            .cut01 {
+                position: relative;
+            }
+
+            .Mika_text {
+                -webkit-writing-mode: vertical-lr;
+                writing-mode: vertical-lr;
+                float: left;
+                margin-top: -400px;
+                margin-left: 250px;
+                line-height: 1;
+                font-size: 1.17em;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .wata {
+                width: 500px;
+                height: 96px;
+            }
+
+            .wata img {
+                width: 100%;
+                position: relative;
+                margin-left: 300px;
+                margin-top: -50px;
+            }
+
+            .shopbox {
+                display: flex;
+                padding-left: 370px;
+                width: 100%;
+                height: 750px;
+                background-color: #FCECE2;
+            }
+
+            .shop_wrap_img {
+                width: 490px;
+                height: 450px;
+                margin-top: 70px;
+                margin-right: 20px;
+                /* border: 1px solid red; */
+            }
+
+            .shop_img {
+                width: 490px;
+                height: 450px;
+            }
+
+            .shop_img img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .shop_text {
+                margin-bottom: 10px;
+                padding-left: 20px;
+                padding-top: 40px;
+                font-size: 1.4em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+            }
+
+
+
+
+            .shop_detail {
+                width: 165.38px;
+
+            }
+
+            .shop_detail img {
+                width: 240px;
+                height: auto;
+                margin-top: 10px;
+                margin-left: 125px;
+            }
+
+            .shoplr_text {
+                -webkit-writing-mode: vertical-lr;
+                writing-mode: vertical-lr;
+                margin-top: 70px;
+                margin-left: -1150px;
+                line-height: 1;
+                font-size: 1.17em;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .cut02 {
+                width: 250px;
+                height: 240px;
+            }
+
+            .cut02 img {
+                width: 100%;
+                margin-left: -150px;
+                margin-top: 200px;
+            }
+
+            .ind_onlineshop {
+
+                height: 880px;
+                background-color: #FCECE2;
+            }
+
+            .ind_onlineshop_title {
+                margin-top: -10px;
+                margin-left: 760px;
+                font-weight: 300;
+                font-family: 'Noto Serif JP', serif;
+                line-height: 1 !important;
+                color: #365B56;
+                font-size: 2.64em;
+                letter-spacing: 0.08em;
+            }
+
+
+            .ind_onlineshop_title img {
+                width: 31px;
+            }
+
+            .ind_onlineshop_title_s {
+                font-size: 14px;
+                text-align: center;
+                margin-top: 15px;
+                font-family: 'Noto Serif JP', serif;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+            }
+
+            .ind_onlineshop_jam_img {
+                width: 1840px;
+                height: 517px;
+                overflow: hidden;
+                margin-top: 15px;
+            }
+
+            .ind_onlineshop_jam_img img {
+                margin-left: 100px;
+                width: 1840px;
+                height: auto;
+            }
+
+            .whit_text {
+                color: #fff;
+                font-size: 1.88em;
+                font-weight: 300;
+                margin-top: -200px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.3 !important;
+                text-align: center;
+                letter-spacing: 0.08em;
+            }
+
+            .ind_jamshop {
+                display: flex;
+                width: 200px;
+                flex-direction: column;
+                margin-left: 1500px;
+                margin-top: -230px;
+                /* border: 1px solid red; */
+            }
+
+            .ind_jamshop:hover {
+                opacity: 0.6;
+            }
+
+            .ind_shop {
+                width: 120px;
+                height: 100px;
+                margin-left: 160px;
+                margin-top: 10px;
+            }
+
+
+            .ind_green {
+                width: 120px;
+                height: auto;
+                margin-left: 160px;
+                margin-top: 50px;
+                /* border: 1px solid red; */
+            }
+
+            .ind_detail {
+                display: flex;
+                margin-top: 50px;
+                padding-left: 850px;
+            }
+
+            .ind_detail img {
+                width: 240px;
+
+            }
+
+            .confiture {
+                width: 737px;
+                height: 56px;
+                /* border: 1px solid red; */
+                margin-top: -400px;
+                margin-left: 650px;
+
+            }
+
+            .confiture img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .product {
+                width: 100%;
+                height: 2600px;
+                background-color: #FCECE2;
+            }
+
+            .product_text {
+                font-size: 1.17em;
+                float: left;
+                display: flex;
+                margin-top: -80px;
+                margin-left: 920px;
+                line-height: 1;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .productbox {
+                display: flex;
+                padding-left: 450px;
+                padding-top: -500px;
+                width: 100%;
+                height: 256px;
+                background-color: #FCECE2;
+            }
+
+            .cut03 {
+                width: 240px;
+                height: 157px;
+                margin-top: -350px;
+                margin-left: 300px;
+            }
+
+            .cut03 img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .pro_text {
+                margin-left: 200px;
+                margin-top: -70px;
+                font-size: 1.17em;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .pro_eng_text {
+                margin-bottom: 10px;
+                padding-left: -50px;
+                padding-top: 40px;
+                font-size: 1.4em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+            }
+
+            .cream_cake {
+                width: 1000px;
+                height: 520px;
+                margin-top: 750px;
+                margin-left: 440px;
+            }
+
+            .cream_cake img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .cream_cake_text {
+                margin-left: 850px;
+                margin-top: -60px;
+                font-size: 1.17em;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .strawberry2 {
+                /* border: 1px solid red; */
+                width: 130px;
+                margin-left: 1300px;
+                margin-top: -300px;
+            }
+
+
+            .cut02 {
+                position: relative;
+                width: 250px;
+                height: 270px;
+            }
+
+            .cut02 img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .decoration_text {
+                margin-bottom: 10px;
+                padding-left: -50px;
+                padding-top: 60px;
+                font-size: 1.41em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+            }
+
+            .decoration_content {
+                width: 800px;
+                height: 408px;
+                margin: 0 auto;
+                font-size: 18px;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .onlineshop_detail {
+                display: flex;
+                margin-top: -290px;
+                padding-left: 830px;
+            }
+
+            .onlineshop_detail img {
+                width: 240px;
+
+            }
+
+            .gift {
+                width: 1000px;
+                height: 520px;
+                margin-top: 100px;
+                margin-left: 440px;
+            }
+
+            .gift img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .gift_text {
+                margin-left: 850px;
+                margin-top: -40px;
+                font-size: 1em;
+                line-height: 1.65;
+                color: #fff;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .wedding_img {
+                width: 650px;
+                height: 200px;
+                margin-top: -400px;
+                margin-left: 600px;
+            }
+
+            .wedding_img img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .wedding_detail {
+                display: flex;
+                margin-top: -290px;
+                padding-left: 830px;
+            }
+
+            .wedding_detail img {
+                width: 240px;
+
+            }
+
+            .marriage_text {
+                padding-left: -50px;
+                padding-top: 220px;
+                font-size: 1.41em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+            }
+
+            .marriage_content {
+                width: 800px;
+                height: 408px;
+                margin: 0 auto;
+                margin-top: 16px;
+                font-size: 18px;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+            }
+
+            .discoverybox {
+                width: 100%;
+                height: 1700px;
+                background-color: #fff9f5;
+            }
+
+
+            .Tabloid_text {
+                -webkit-writing-mode: vertical-lr;
+                writing-mode: vertical-lr;
+                font-size: 1.17em;
+                float: left;
+                display: flex;
+                margin-top: 150px;
+                line-height: 1;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                margin-left: 300px;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .cut05 {
+                width: 104px;
+                height: 132px;
+                margin-left: 500px;
+                margin-top: -100px;
+                display: flex;
+            }
+
+            .cut05 img {
+                width: 100%;
+                height: 100%;
+                margin-top: 75px;
+
+            }
+
+            .discover_title {
+                font-size: 2.64em;
+                font-weight: 400;
+                width: fit-content;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.2 !important;
+                margin-left: 700px;
+                margin-top: 20px;
+                color: #365B56;
+                letter-spacing: 0.08em;
+            }
+
+            .discover_content {
+                position: relative;
+                width: fit-content;
+                margin-left: 700px;
+                margin-top: 20px;
+                font-size: 18px;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+
+
+            }
+
+            .tabloidbox {
+                width: 800px;
+                height: 335px;
+                margin-left: 800px;
+
+            }
+
+
+            .tabloid_img {
+                width: 450px;
+                height: 300px;
+            }
+
+            .tabloid_img img {
+                width: 100%;
+                height: 100%;
+            }
+
+
+
+            .tabloid_wrap {
+                display: flex;
+                margin-left: 20px;
+                margin-top: 100px;
+
+            }
+
+            .tabloid_greenbox {
+                width: 240px;
+                height: 300px;
+                margin-left: 10px;
+            }
+
+            .tabloid_greenbox img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .symbol {
+                font-size: 1.26em;
+                line-height: 1 !important;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                margin-left: 20px;
+                margin-top: 12px;
+            }
+
+            .tabloid_number {
+                font-size: 2.94em;
+                line-height: 1 !important;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                margin-left: 35px;
+                margin-top: -25px;
+
+            }
+
+            .tabloid_out_title {
+                line-height: 1.2;
+                width: fit-content;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.15em;
+                font-size: 1.76em;
+                background: #fff;
+                margin-left: 100px;
+                margin-top: -45px;
+
+            }
+
+            .tabloid_out_title2 {
+                line-height: 1.2;
+                width: fit-content;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.15em;
+                font-size: 1.76em;
+                background: #fff;
+                margin-left: 100px;
+                margin-top: 10px;
+
+
+            }
+
+            .discover_detail {
+                display: flex;
+                margin-top: 30px;
+                padding-left: 70px;
+            }
+
+            .discover_detail img {
+                width: 240px;
+
+            }
+
+            .tabloid_text_wrap {
+                width: 450px;
+                height: 200px;
+                margin-left: -420px;
+                margin-top: -200px;
+                /* border: 1px solid red; */
+            }
+
+            .map {
+                width: 800px;
+                height: auto;
+                margin-left: -300px;
+                margin-top: -1600px;
+            }
+
+            .map img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .corpbox {
+                width: 100%;
+                height: 1001px;
+                background-color: #F8F0E8;
+
+            }
+
+            .corp_title {
+                line-height: 1.2;
+                width: fit-content;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.15em;
+                font-size: 1.4em;
+                text-align: center;
+                margin: 0 auto;
+                padding-top: 50px;
+            }
+
+            .corp_content {
+                position: relative;
+                font-size: 18px;
+                line-height: 1.65;
+                color: #365B56;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                font-family: 'Noto Serif JP', serif;
+                margin-left: 730px;
+                margin-top: 40px;
+                margin-bottom: 250px;
+            }
+
+            .corp_wrap_img {
+                width: 237px;
+                height: 500px;
+                margin-top: -100px;
+                margin-right: 10px;
+                /* border: 1px solid red; */
+            }
+
+            .corp_img {
+                width: 235px;
+                height: 300px;
+            }
+
+            .corp_img img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .shop_text {
+                font-size: 1.10em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+            }
+
+            .corp_detail {
+                width: 180px;
+                height: 45px;
+
+            }
+
+            .corp_detail img {
+                width: 100%;
+                height: auto;
+                margin-top: 10px;
+
+            }
+
+            .corpbox2 {
+                display: flex;
+                padding-left: 945px;
+                padding-top: -50px;
+                width: 375px;
+                height: 256px;
+                background-color: #F8F0E8;
+            }
+
+            .corpoutbox {
+                display: flex;
+                padding-left: 450px;
+                padding-top: -500px;
+                width: 100%;
+                height: 0px;
+                background-color: #F8F0E8;
+            }
+
+            .footer_wrap {
+                background-color: #F8F0E8;
+                width: 100%;
+                height: 800px;
+            }
+
+            .footer_title {
+                padding-top: 40px;
+                margin-right: 40px;
+                width: 430px;
+                height: 67px;
+                margin: 0 auto;
+            }
+
+            .footer_line {
+                border-top: 1px solid #C5C9C1;
+            }
+
+            .footer_title img {
+                width: 100%;
+                height: auto;
+                margin-left: 40px;
+            }
+
+            .footer_content {
+                font-size: 1.41em;
+                text-align: center;
+                font-weight: 300;
+                margin-top: 10px;
+                font-family: 'Roboto', sans-serif;
+                line-height: 1.5;
+                letter-spacing: 0.08em;
+                color: #365B56;
+                margin-top: 70px;
+                margin-left: 20px;
+            }
+
+            .footer_list {
+                font-size: 1.10em;
+                font-weight: 300;
+                margin-top: 10px;
+                font-weight: 400;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                line-height: 3;
+                letter-spacing: 0.08em;
+                color: #000;
+                margin-top: 70px;
+                margin-left: 10px;
+            }
+
+            .recruit {
+                width: 120px;
+                height: 60px;
+                margin-left: 1200px;
+                margin-top: -300px;
+            }
+
+            .recruit img {
+                width: 100%;
+            }
+
+            .footer_social {
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                font-size: 13px;
+                color: #231815;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                line-height: 1.65;
+                margin-top: 280px;
+            }
+
+            .footericon {
+                display: flex;
+                margin-top: 10px;
+                justify-content: center;
+            }
+
+            .footer_fb {
+                width: 30px;
+            }
+
+            .footer_fb img {
+                width: 100%;
+            }
+
+            .footer_ig {
+                width: 30px;
+            }
+
+            .footer_ig img {
+                width: 100%;
+            }
+
+
+
+            .footer_bottom {
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                font-size: 13px;
+                color: #231815;
+                font-weight: 400;
+                letter-spacing: 0.08em;
+                line-height: 2;
+
+            }
+
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+    <nav class="navbar fixed-top  ">
+
+        <a class="navbar-brand" href="https://ichigonoomise.com/"><img src="./images/logo.png" width="" height=""
+                alt=""></a>
+
+        <div class="hamberger"><img src="./images/hamberger.PNG" alt=""></div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                <li class="nav-item">
+                    <a class="onlineshop" href="https://ichigonoomise.com/"> <img src="./images/hdbnr_ham.png"
+                            alt=""></a>
+
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="nav_item_wrap">
+
+            <a class="facebook" href="https://ichigonoomise.com/" tabindex="-1" aria-disabled="true">
+                <img src="./images/icn_fb.png" alt="">
+            </a>
+
+            <a class="instagram" href="#" tabindex="-1" aria-disabled="true">
+                <img src="./images/icn_in.png" alt="">
+            </a>
+        </div>
+
+
+    </nav>
+
+
+
+    <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/201229_main.png" class="d-block w-100" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/200916_main.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/main_jam.png" class=" d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/ps_shortCake_piece_s.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="jamshop_wrap">
+        <div class="jamshop_in">
+            <a class="jamshop" href="https://ichigonoomise.shop-pro.jp/">
+                <img class="shop" src="./images/ind_bnr_jam02.png" width="" alt="">
+                <img class="green" src="./images/icn_online_bnr.png" width="" alt="">
+            </a>
+        </div>
+    </div>
+
+
+    <div class="tarte">
+
+        <div class="row">
+            <div class="jumbotron jumbotron-fluid">
+
+            </div>
+
+            <a class="detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                aria-disabled="true">
+                <img src="./images/icn_detail.png" alt="">
+            </a>
+        </div>
+    </div>
+
+
+    <div class="hand">
+        <div class="cls">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430.87 67.29">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: #fff;
+                        }
+                    </style>
+                </defs>
+                <g id="レイヤー_2" data-name="レイヤー 2">
+                    <g id="hide文字">
+                        <rect class="cls-1" x="413.31" y="0.54" width="16.59" height="4.43" />
+                        <rect class="cls-1" x="413.31" y="21" width="17.56" height="4.43" />
+                        <rect class="cls-1" x="413.31" y="10.77" width="13.42" height="4.43" />
+                        <rect class="cls-1" x="413.31" y="0.54" width="4.84" height="24.89" />
+                        <rect class="cls-1" x="269.2" y="0.54" width="15.76" height="4.43" />
+                        <rect class="cls-1" x="269.2" y="10.77" width="12.17" height="4.43" />
+                        <rect class="cls-1" x="269.2" y="0.54" width="4.84" height="24.89" />
+                        <path class="cls-1"
+                            d="M404.74,21.29a12.26,12.26,0,0,1-9.8,4.69c-7.91,0-13-5.81-13-13s5.08-13,13-13a11.81,11.81,0,0,1,8.79,3.59l-3.19,3a7.4,7.4,0,0,0-5.6-2.25c-5.08,0-7.86,3.88-7.86,8.65s3.07,8.61,7.86,8.61a7.51,7.51,0,0,0,5-1.76v-5h4.84Z" />
+                        <path class="cls-1"
+                            d="M345.59,13c0,7.18-5.08,13-13,13s-13-5.81-13-13,5.09-13,13-13,13,5.82,13,13m-5.11,0c0-4.77-3.09-8.61-7.89-8.61S324.7,8.22,324.7,13s3.1,8.61,7.89,8.61,7.89-3.86,7.89-8.61" />
+                        <rect class="cls-1" x="293.81" y="0.54" width="4.71" height="24.89" />
+                        <path class="cls-1"
+                            d="M311,7.76a7.41,7.41,0,0,1-1.68,5.11,8,8,0,0,1-5.09,2.18v.55h-5.74V11.21h4.37a3.83,3.83,0,0,0,2.32-.87,2.79,2.79,0,0,0,1.13-2.48,3.05,3.05,0,0,0-1.13-2.48,3.83,3.83,0,0,0-2.32-.85h-4.37v-4h5.74a8,8,0,0,1,5.09,2.18A6.67,6.67,0,0,1,311,7.76Z" />
+                        <polygon class="cls-1"
+                            points="312.33 25.43 306.83 12.65 303.03 15.6 307.28 25.43 312.33 25.43" />
+                        <polygon class="cls-1" points="358.58 0.54 353.9 0.54 353.9 16.45 358.58 15.41 358.58 0.54" />
+                        <path class="cls-1"
+                            d="M353.9,16.45c0,4.12,1.51,6.26,3.2,7.63a10.31,10.31,0,0,0,6.67,1.9V21.7a4.54,4.54,0,0,1-4.1-1.76c-1-1.26-1.09-3.49-1.09-4.53Z" />
+                        <polygon class="cls-1" points="368.96 0.54 373.65 0.54 373.65 16.45 368.96 15.41 368.96 0.54" />
+                        <path class="cls-1"
+                            d="M373.65,16.45c0,4.12-1.53,6.26-3.2,7.63a10.36,10.36,0,0,1-6.68,1.9V21.7a4.53,4.53,0,0,0,4.1-1.76c1-1.26,1.09-3.49,1.09-4.53Z" />
+                        <rect class="cls-1" x="67.6" y="0.54" width="4.7" height="24.89" />
+                        <polygon class="cls-1"
+                            points="34.13 25.43 39.41 25.43 46.44 7.5 53.46 25.43 58.76 25.43 48.17 0.54 44.71 0.54 34.13 25.43" />
+                        <rect class="cls-1" x="41.87" y="14.74" width="9.14" height="4.44" />
+                        <rect class="cls-1" x="225.67" y="0.54" width="15.22" height="4.43" />
+                        <rect class="cls-1" x="225.67" y="21" width="16.18" height="4.43" />
+                        <rect class="cls-1" x="225.67" y="10.77" width="12.04" height="4.43" />
+                        <rect class="cls-1" x="224.29" y="0.54" width="4.85" height="24.89" />
+                        <rect class="cls-1" x="193.11" y="0.54" width="4.84" height="24.89" />
+                        <path class="cls-1"
+                            d="M210.65,13c0,3.66-1,5.1-2.29,6.23a9.76,9.76,0,0,1-5.87,2h-4.7v4.24h4.58a15.46,15.46,0,0,0,9.2-3c1.86-1.59,3.88-3.61,3.88-9.48s-2-7.89-3.88-9.48a15.53,15.53,0,0,0-9.2-3h-4.58V4.79h4.7a9.63,9.63,0,0,1,5.87,2C209.67,7.89,210.65,9.33,210.65,13Z" />
+                        <rect class="cls-1" y="1.04" width="4.51" height="23.9" />
+                        <rect class="cls-1" x="20.25" y="1.04" width="4.51" height="23.9" />
+                        <polygon class="cls-1"
+                            points="12.37 17.24 20.25 6.83 20.25 1.04 18.99 1.04 12.37 9.57 5.78 1.04 4.51 1.04 4.51 6.83 12.37 17.24" />
+                        <path class="cls-1"
+                            d="M134.2,13c0,7.19-5.09,13-13,13s-13-5.81-13-13,5.08-13,13-13,13,5.82,13,13m-5.12,0c0-4.76-3.07-8.6-7.87-8.6s-7.89,3.84-7.89,8.6,3.08,8.62,7.89,8.62,7.87-3.86,7.87-8.62" />
+                        <rect class="cls-1" x="143.59" y="0.54" width="4.71" height="24.89" />
+                        <rect class="cls-1" x="160.74" y="0.54" width="4.7" height="24.89" />
+                        <polygon class="cls-1"
+                            points="148.3 6.62 159.94 25.43 160.74 25.43 160.74 17.44 150.3 0.54 148.3 0.54 148.3 6.62" />
+                        <path class="cls-1"
+                            d="M96.15,6.88s-2-2.73-4.68-2.73S88.37,6,88.37,6.6s.11,2,3.06,3.36c4.18,1.94,8.06,3.42,8.06,8.77,0,5-4.21,7.25-8,7.25a10.46,10.46,0,0,1-8.92-4.57l2.9-3a7.86,7.86,0,0,0,5.89,3.27c2.86.06,3.55-1.82,3.57-2.72s-.34-2.24-2.85-3.52a37.51,37.51,0,0,1-5.91-3.39,6.56,6.56,0,0,1-2.39-5.41C83.91,3,86.52,0,91.75,0a8.59,8.59,0,0,1,7.43,4.11Z" />
+                        <path class="cls-1"
+                            d="M105.92,52.87a4.92,4.92,0,0,1,3.73,1.5l2.12-2A7.88,7.88,0,0,0,105.92,50a8.36,8.36,0,0,0-8.67,8.66,8.36,8.36,0,0,0,8.67,8.66,8.11,8.11,0,0,0,5.48-2l-1.82-2.11a6.09,6.09,0,0,1-3.66,1.22c-3.2,0-5.26-2.57-5.26-5.74S102.53,52.87,105.92,52.87Z" />
+                        <path class="cls-1"
+                            d="M176.37,50a8.36,8.36,0,0,0-8.66,8.66,8.67,8.67,0,0,0,17.34,0A8.37,8.37,0,0,0,176.37,50Zm0,14.4c-3.2,0-5.25-2.57-5.25-5.74s2-5.74,5.25-5.74,5.26,2.57,5.26,5.74S179.57,64.37,176.37,64.37Z" />
+                        <path class="cls-1"
+                            d="M231.24,50a8.35,8.35,0,0,0-8.66,8.66,8.67,8.67,0,0,0,17.33,0A8.36,8.36,0,0,0,231.24,50Zm0,14.4c-3.21,0-5.26-2.57-5.26-5.74s2.05-5.74,5.26-5.74,5.26,2.57,5.26,5.74S234.44,64.37,231.24,64.37Z" />
+                        <path class="cls-1"
+                            d="M264.81,50a8.36,8.36,0,0,0-8.67,8.66,8.67,8.67,0,0,0,17.34,0A8.37,8.37,0,0,0,264.81,50Zm0,14.4c-3.2,0-5.26-2.57-5.26-5.74s2.06-5.74,5.26-5.74,5.25,2.57,5.25,5.74S268,64.37,264.81,64.37Z" />
+                        <rect class="cls-1" x="88.1" y="50.33" width="3.13" height="16.59" />
+                        <rect class="cls-1" x="137.8" y="50.33" width="3.13" height="16.59" />
+                        <rect class="cls-1" x="304.57" y="50.33" width="3.13" height="16.59" />
+                        <polygon class="cls-1"
+                            points="334.29 63.98 334.29 60.1 340 60.1 340 57.15 334.29 57.15 334.29 53.28 342.13 53.28 342.13 50.33 331.05 50.33 331.05 66.93 342.77 66.93 342.77 63.98 334.29 63.98" />
+                        <polygon class="cls-1"
+                            points="293.18 50.33 288.58 56.26 284.01 50.33 279.99 50.33 279.99 66.93 283.13 66.93 283.13 54.35 288.58 61.58 294.05 54.35 294.05 66.93 297.19 66.93 297.19 50.33 293.18 50.33" />
+                        <polygon class="cls-1"
+                            points="213.69 61.6 206.73 50.33 202.25 50.33 202.25 66.93 205.39 66.93 205.39 54.38 213.15 66.93 216.82 66.93 216.82 50.33 213.69 50.33 213.69 61.6" />
+                        <path class="cls-1"
+                            d="M320,56.62c-2-.92-2-1.82-2-2.24s.34-1.64,2.06-1.64a4.45,4.45,0,0,1,3.13,1.82l2-1.85A5.69,5.69,0,0,0,320.24,50c-3.49,0-5.23,2-5.34,4.45A4.45,4.45,0,0,0,316.48,58a27.45,27.45,0,0,0,4,2.25c1.66.86,1.9,1.73,1.89,2.34s-.47,1.87-2.38,1.83A5.23,5.23,0,0,1,316,62.28l-1.94,2A6.93,6.93,0,0,0,320,67.29c2.57,0,5.38-1.48,5.38-4.83C325.41,58.9,322.8,57.91,320,56.62Z" />
+                        <path class="cls-1"
+                            d="M156.15,60.76h2.93V63.2a5,5,0,0,1-3.31,1.17c-3.2,0-5.25-2.57-5.25-5.74s1.85-5.76,5.25-5.76a4.93,4.93,0,0,1,3.73,1.5l2.13-2A7.9,7.9,0,0,0,155.77,50a8.36,8.36,0,0,0-8.66,8.66,8.36,8.36,0,0,0,8.66,8.66,8.16,8.16,0,0,0,6.53-3.13V57.81h-6.15Z" />
+                        <polygon class="cls-1"
+                            points="127.44 57.15 120.28 57.15 120.28 50.33 117.06 50.33 117.06 66.93 120.28 66.93 120.28 60.1 127.44 60.1 127.44 66.93 130.67 66.93 130.67 50.33 127.44 50.33 127.44 57.15" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+
+    <div class="fb_wra">
+        <div class="fb_text_wrap">
+            <div class="cat"><img src="./images/cat.jpg" alt=""></div>
+
+            <div class="fb_text">
+                <div class="fb_text_center">
+                    スタジオジブリさんが、お店の３種のアイス苺大福<br>を、トトロに変身させてくださいました。https://twitter.com/･･･
+                </div>
+                <a class="fb_min" href="https://www.facebook.com/ichigonoomise/">
+                    <img src="./images/facebook-min.png" width="" alt=""></a>
+            </div>
+
+        </div>
+
+        <div class="fb_text_wrap">
+            <div class="cat"><img src="./images/safe_image.jfif" alt=""></div>
+
+            <div class="fb_text">
+                <div class="fb_text_center">
+                    1/13水曜より、銀座三越にて、いちごづくしのイベ<br>ントが始まりました。少しでも多くの銀座のお客様<br>に旬のイチゴ･･･
+                </div>
+
+                <a class="fb_min" href="https://www.facebook.com/ichigonoomise/">
+                    <img src="./images/facebook-min.png" width="" alt=""></a>
+
+
+            </div>
+        </div>
+
+
+        <div class="fb_text_wrap">
+            <div class="cat"><img src="./images/201229_main_sp.png" alt=""></div>
+
+            <div class="fb_text">
+                <div class="fb_text_center">
+                    あけましておめでとうございます。今年は、１月５<br>日　１１：００〜営業がはじまります。自社農園で<br>栽培された「あんルージ
+                </div>
+                <a class="fb_min" href="https://www.facebook.com/ichigonoomise/">
+                    <img src="./images/facebook-min.png" width="" alt=""></a>
+            </div>
+
+        </div>
+
+        <div class="fb_text_wrap">
+            <div class="cat"><img src="./images/cake2.jpg" alt=""></div>
+
+            <div class="fb_text">
+                <div class="fb_text_center">
+                    美味しいいちごがたくさん届いたので、クリスマス<br>ケーキの当日販売をさせていただけることになりま<br>した。いちごが足りるかど
+                </div>
+                <a class="fb_min" href="https://www.facebook.com/ichigonoomise/">
+                    <img src="./images/facebook-min.png" width="" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="fb_M"><img src="./images/icn_facebook-min.png" alt=""></div>
+    <div class="fb_M_text"> Facebook</div>
+    <div class="Philo_text_box">
+        <div class="Philo_text">Philosophy</div>
+    </div>
+    <div class="Philosophy_wrap">
+
+        <div class="Philosophy_text">
+
+            <div class="Philosophy_title">苺の味と、<br>育てる人の気持ちは<br>繋がっている。</div>
+            <div class="Philosophy_eng_title">Philosophy
+            </div>
+            <div class="Philosophy_eng_text">
+                Dégustez les multiples saveurs <br>
+                et appréciez les apparences.
+            </div>
+
+            <a class="Philosophy_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                aria-disabled="true">
+                <img src="./images/icn_detail.png" alt="">
+            </a>
+
+        </div>
+        <div class="Philosophy_greenbox">
+            <div class="Philosophy_greenbox_text">
+                ほんとうにおいしい苺に出会ったこと。メ<br>ゾン・ド・フルージュをはじめるきっかけ<br>となった出来事は、シンプルなものでした。<br>その苺はある農家さんが栽培したもので、<br>どうしても美味さの理由が知りたくて、農<br>家さんを訪ねました。そこで育てられる苺<br>は、自家製有機肥料を使い、農薬を最小限<br>に、微生物の力を借りる農法で栽培されて<br>いました。おいしい苺を作るために<br>ありったけの時間が注がれているのです。<br>農家さんが生育環境に配慮し、生き物その<br>ものの力を引き出す。そこにおいしさの理<br>由があったのだと思います。そのことに感<br>激し、ほんとうにおいしい苺を広めるため<br>のお店を作ろう。そう決意したのが、メゾ<br>ン・ド・フルージュのはじまりです。
+            </div>
+        </div>
+
+        <div class="strawberry"><img class="cut01" src="./images/illust_cut01.png" alt=""></div>
+    </div>
+
+    <div class="profilebox">
+
+        <div class="profile_sea_img"><img src="./images/tabloid_thmb01.png" alt="">
+
+        </div>
+        <a class="profile_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+            aria-disabled="true">
+            <img src="./images/icn_detail.png" alt="">
+        </a>
+        <div class="Mika_text">Mika Watabe<div class="wata"><img src="./images/watabemika.png" alt=""></div>
+        </div>
+
+        <div class="profile_text">
+
+            服飾の企画デザインの仕事をしていた頃に、友人から紹介されたいちごのあまりのおい<br>しさに感動し、2003年にいちごのお菓子専<br>門店をオープン。<br>
+            きっかけとなったいちごを栽培している農<br>家さんと契約し、畑で完熟になったものだ<br>けを直送。そのいちごをベースにいちごの<br>お菓子を製作する。
+            いちご本来の味が活き<br>るシンプルなお菓子だけが並ぶお店があってもいいのではないかと、基本的なお菓子作<br>りからはじまり、和菓子、洋菓子、中国菓<br>子と今では100種類以上のレシピがある。<br>
+            テレビ、雑誌、イベントにも出演。京都市<br>在住。
+            2017年、岡山県西粟倉村に「苺の研<br>究所」を設立。多数の農業研究機関へ、いちご開発のアドバイザーも務める。
+
+
+        </div>
+        <div class="profile_strawberry_img"></div>
+
+    </div>
+
+
+    <div class="shopbox">
+
+        <div class="shop_wrap_img">
+            <div class="shop_img">
+                <img src="./images/shop_img_cafe.png" alt="">
+            </div>
+            <div class="shop_text">Cafe & Shop</div>
+            <a class="shop_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                aria-disabled="true">
+                <img src="./images/icn_detail.png" alt="">
+            </a>
+        </div>
+
+        <div class="shop_wrap_img">
+            <div class="shop_img">
+                <img src="./images/shop_img_factory.png" alt="">
+            </div>
+            <div class="shop_text">Factory & Atelier</div>
+            <a class="shop_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                aria-disabled="true">
+                <img src="./images/icn_detail.png" alt="">
+            </a>
+        </div>
+        <div class="shoplr_text">Shop</div>
+        <div class="cut02"><img src="./images/illust_cut02.png" alt=""></div>
+    </div>
+
+    <div class="ind_onlineshop">
+
+        <div class="ind_onlineshop_title">
+            <img src="./images/icn_cart.png" alt=""> ONLINE SHOP
+        </div>
+        <div class="ind_onlineshop_title_s">メゾン・ド・フルージュ ジャムのお店</div>
+        <div class="ind_onlineshop_jam_img"><img src="./images/ps_Jam_UP_s.jpg" alt="">
+
+
+        </div>
+
+        <div class="whit_text">Dégustez les multiples<br> saveurs <br>
+            et appréciez les <br>apparences.</div>
+
+        <a class="ind_jamshop" href="https://ichigonoomise.shop-pro.jp/"> <img class="ind_green"
+                src="./images/icn_online_bnr.png" width="" alt="">
+            <img class="ind_shop" src="./images/bnr_jam_type2.png" width="" alt="">
+        </a>
+        <a class="ind_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+            aria-disabled="true">
+            <img src="./images/icn_detail.png" alt="">
+        </a>
+        <div class="confiture"><img src="./images/txt_confituredelafraise.png" alt=""></div>
+    </div>
+
+    <div class="product">
+        <div class="product_text">Product</div>
+        <div class="productbox">
+
+            <div class="shop_wrap_img">
+                <div class="shop_img">
+                    <img src="./images/product_img_cakes.png" alt="">
+                    <div class="pro_text">生菓子</div>
+                </div>
+                <div class="pro_eng_text">CAKES</div>
+                <a class="shop_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                    aria-disabled="true">
+                    <img src="./images/icn_detail.png" alt="">
+                </a>
+            </div>
+
+            <div class="shop_wrap_img">
+                <div class="shop_img">
+                    <img src="./images/product_img_baked.png" alt="">
+                    <div class="pro_text">焼き菓子</div>
+                </div>
+                <div class="pro_eng_text">BAKED</div>
+                <a class="shop_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                    aria-disabled="true">
+                    <img src="./images/icn_detail.png" alt="">
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="cut03"><img src="./images/illust_cut03.png" alt=""></div>
+
+        <div class="cream_cake">
+            <img src="./images/img_ordermade.jpg" alt="">
+        </div>
+        <div class="cream_cake_text">デコレーションケーキ</div>
+        <div class="strawberry2"><img class="cut02" src="./images/illust_cut04.png" alt=""></div>
+        <div class="decoration_text">DECORATION CAKE</div>
+        <div class="decoration_content">メゾン・ド・フルージュでは、大切なご家族、恋人、お友達と共に過ごす特別な日を、<br>お客様のご要望をお伺いしたオリジナルのケーキでお手伝いします。</div>
+        <a class="onlineshop_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+            aria-disabled="true">
+            <img src="./images/icn_detail.png" alt="">
+        </a>
+
+        <div class="gift">
+            <img src="./images/ps_Wedding_s.jpg" alt="">
+        </div>
+        <div class="gift_text">ウェディングギフト</div>
+        <div class="wedding_img"><img src="./images/txt_wedding_gift.png" alt=""></div>
+        <div class="marriage_text">for MARRIAGE</div>
+        <div class="marriage_content">お二人の大切な日に、お二人のためだけの、想い出に残るギフトをご用意致します。</div>
+        <a class="wedding_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+            aria-disabled="true">
+            <img src="./images/icn_detail.png" alt="">
+        </a>
+    </div>
+
+    <div class="discoverybox">
+        <div class="Tabloid_text">Tabloid</div>
+        <div class="cut05"><img src="./images/illust_cut05.png" alt=""></div>
+        <div class="discover_title">DISCOVER the <br>
+            STRAWBERRY FARMERS</div>
+
+        <div class="discover_content">日本の津々浦々で愛情たっぷり育まれた、<br>苺たちの知られざるお話をお届けします。</div>
+
+        <div class="tabloidbox">
+            <div class="tabloid_wrap">
+                <div class="tabloid_img"><img src="./images/tabloid_thmb03.png" alt=""></div>
+                <div class="tabloid_greenbox">
+                    <img src="./images/tabloid_ttl03.png" alt="">
+                </div>
+            </div>
+            <div class="tabloid_text_wrap">
+                <div class="symbol">#</div>
+                <div class="tabloid_number">01</div>
+                <div class="tabloid_out_title">一粒で人を笑顔に</div>
+                <div class="tabloid_out_title2">できる苺を</div>
+                <a class="discover_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                    aria-disabled="true">
+                    <img src="./images/icn_detail.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="tabloidbox">
+            <div class="tabloid_wrap">
+                <div class="tabloid_img"><img src="./images/tabloid_thmb02.png" alt=""></div>
+                <div class="tabloid_greenbox">
+                    <img src="./images/tabloid_ttl02.png" alt="">
+                </div>
+            </div>
+            <div class="tabloid_text_wrap">
+                <div class="symbol">#</div>
+                <div class="tabloid_number">02</div>
+                <div class="tabloid_out_title">美味しい苺の需要は</div>
+                <div class="tabloid_out_title2">海外へも拡大中</div>
+                <a class="discover_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                    aria-disabled="true">
+                    <img src="./images/icn_detail.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="tabloidbox">
+            <div class="tabloid_wrap">
+                <div class="tabloid_img"><img src="./images/tabloid_thmb01.png" alt=""></div>
+                <div class="tabloid_greenbox">
+                    <img src="./images/tabloid_ttl01.png" alt="">
+                </div>
+            </div>
+            <div class="tabloid_text_wrap">
+                <div class="symbol">#</div>
+                <div class="tabloid_number">03</div>
+                <div class="tabloid_out_title">毎日の変化を見つめ</div>
+                <div class="tabloid_out_title2">美味しい苺へと導く日々</div>
+                <a class="discover_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                    aria-disabled="true">
+                    <img src="./images/icn_detail.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="map"><img src="./images/japan_map.png" alt=""></div>
+
+    </div>
+
+
+    <div class="corpbox">
+        <div class="corp_title">法人の方へ</div>
+        <div class="corp_content">メゾン・ド・フルージュではさまざまな法人の方<br>と連携し、美味しい苺を広く届ける活動を行なっ<br>ていきたいと考えています。
+            苺に関するご相談が<br>ございましたら、どうぞお気軽にご連絡ください。</div>
+        <div class="corpoutbox">
+
+            <div class="corp_wrap_img">
+                <div class="corp_img">
+                    <img src="./images/houjin_bnr01.png" alt="">
+
+                </div>
+                <div class="pro_eng_text">農業研究所の方へ</div>
+                <a class="corp_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                    aria-disabled="true">
+                    <img src="./images/icn_detail.png" alt="">
+                </a>
+            </div>
+
+            <div class="corp_wrap_img">
+                <div class="corp_img">
+                    <img src="./images/houjin_bnr02.png" alt="">
+
+                </div>
+                <div class="pro_eng_text">企業の方へ</div>
+                <a class="corp_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                    aria-disabled="true">
+                    <img src="./images/icn_detail.png" alt="">
+                </a>
+            </div>
+
+
+        </div>
+        <div class="corpbox2">
+
+            <div class="corp_wrap_img">
+                <div class="corp_img">
+                    <img src="./images/houjin_bnr03.png" alt="">
+
+                </div>
+                <div class="pro_eng_text">苺農園の方へ</div>
+                <a class="corp_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                    aria-disabled="true">
+                    <img src="./images/icn_detail.png" alt="">
+                </a>
+            </div>
+
+            <div class="corp_wrap_img">
+                <div class="corp_img">
+                    <img src="./images/houjin_bnr04.png" alt="">
+
+                </div>
+                <div class="pro_eng_text">メディアの方へ</div>
+                <a class="corp_detail" href="https://ichigonoomise.shop-pro.jp/?pid=155777022" tabindex="-1"
+                    aria-disabled="true">
+                    <img src="./images/icn_detail.png" alt="">
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer_wrap">
+        <div class="footer_line"></div>
+        <div class="footer_title"><img src="./images/logo_type3.svg" alt=""></div>
+        <div class="footer_content">Dégustez les multiples saveurs<br>
+            et appréciez les apparences.</div>
+        <div class="footer_list">Philosophy<br>Watabe Mika<br>Shop<br>Product<br>Tabloid<br>Contact</div>
+        <div class="recruit"><img src="./images/icn_recruit.png" alt=""></div>
+        <div class="footer_social">Social</div>
+        <div class="footericon">
+
+            <div class="footer_fb"><img src="./images/icn_fb.png" alt=""></div>
+            <div class="footer_ig"><img src="./images/icn_in.png" alt=""></div>
+        </div>
+
+        <div class="footer_bottom">会社概要/プライバシーポリシー/特定商取引<br>Copyright © MAISON DE FROUGE ICHIGO NO OMISE </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
